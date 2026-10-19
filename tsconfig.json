@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "types": ["node"],
+    // "baseUrl": ".",
     "target": "esnext",
     "module": "nodenext",
     "rootDir": "./src",
