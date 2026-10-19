@@ -16,8 +16,8 @@ describe.each([
         expected: [],
     },
     {
-        input: "test1      test2     test3      test4",
-        expected: ["test1", "test2", "test3", "test4"],
+        input: "test1      Test2     tESt3      4TEST",
+        expected: ["test1", "test2", "test3", "4test"],
     },
     // TODO: more testcases here
 ])("cleanInput($input)", ({input, expected}) => {
