@@ -5,7 +5,7 @@ export async function commandMapB(state: State) {
     console.log("You're on the first page");
     return;
   }
-  const locationsObj = await state.PokeAPI.fetchLocations(
+  const locationsObj = await state.pokeAPI.fetchLocations(
     state.prevLocationsURL,
   );
   state.nextLocationsURL = locationsObj.next;
